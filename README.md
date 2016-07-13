@@ -15,12 +15,12 @@
  
 ----
 
- * プログラムプログラム
+ * プログラム
 var a = [4,2,3,9,10]
 a.sort(function(a,b){
-        if( a < b ) return -1;
-        if( a > b ) return 1;
-        return 0;
+if( a < b ) return -1;
+if( a > b ) return 1;
+return 0;
 });
 
  * 表
